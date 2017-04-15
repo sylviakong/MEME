@@ -5,6 +5,7 @@ body {
   	background-color: #fff; /* Sanity Check! */
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 100px;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
 <<<<<<< HEAD
 div.container {
     width: 100%;
-    padding-left: 100px;
 =======
 
 
