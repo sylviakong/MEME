@@ -1,7 +1,11 @@
 body {
+<<<<<<< Updated upstream
   color: #376f3d;
+=======
+  color: #5A8B42;
+>>>>>>> Stashed changes
   font-family: Helvetica, Arial, sans-serif;
-  background-color: #376071; /* Sanity Check! */
+  background-color: #fff; /* Sanity Check! */
 }
 
 h1 {
