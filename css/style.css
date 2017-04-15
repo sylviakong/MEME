@@ -4,6 +4,7 @@ body {
 	font-family: 'Gloria Hallelujah', cursive;
   	background-color: #fff; /* Sanity Check! */
     padding-left: 100px;
+    padding-right: 100px;
 }
 
 h1 {
