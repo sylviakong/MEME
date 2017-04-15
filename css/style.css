@@ -3,25 +3,13 @@ body {
   	color: #5A8B42;
 	font-family: 'Gloria Hallelujah', cursive;
   	background-color: #fff; /* Sanity Check! */
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
 }
 
 h1 {
   margin-top: 50px;
   text-align: center;
-  padding-left: 100 px;
 }
 
-<<<<<<< HEAD
-div.container {
-    width: 100%;
-=======
-
-
->>>>>>> origin/master
-}
 
 article {
     float: left;
@@ -32,3 +20,42 @@ article {
  	float: right;
 
  }
+
+ /* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
