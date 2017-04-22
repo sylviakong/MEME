@@ -1,14 +1,15 @@
-body {
-	font-size: 10px;
-  	color: #5A8B42;
-	font-family: 'Gloria Hallelujah', cursive;
+.history p  {
+		font-size: 16px;
+  	color: #707070;
+		font-family: 'Slabo 27px', serif;
+		line-height: 1.5;
   	background-color: #fff; /* Sanity Check! */
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
 }
 
 h1 {
+	font-size: 24px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #5A8B42;
   margin-top: 50px;
   text-align: left;
   padding-left: 100 px;
@@ -16,15 +17,11 @@ h1 {
 
 .hvr-buzz {
 	font-size: 12 px;
-	
-}
-.history p {
-	font-size: 10 px
-	font - family
 
 }
+
 .container {
-    max-width: 1000px;
+    max-width: 800px;
 		margin:0 auto;
 		/*max-height: 400px;*/
  }
