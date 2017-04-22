@@ -1,8 +1,8 @@
 .history p  {
-		font-size: 16px;
+		font-size: 14px;
   	color: #707070;
-		font-family: 'Slabo 27px', serif;
-		line-height: 1.5;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 2;
   	background-color: #fff; /* Sanity Check! */
 }
 
@@ -26,15 +26,11 @@ h1 {
 		/*max-height: 400px;*/
  }
 
- img{
- 	float: right;
 
+ .custom {
+    cursor: url(../img/my-cursor.png), auto;
  }
 
- #dance {
-
-
- }
 
 /* Buzz */
 @-webkit-keyframes hvr-buzz {
